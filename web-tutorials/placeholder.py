@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #placeholder(
 #   dtype,
 #   shape  = None,

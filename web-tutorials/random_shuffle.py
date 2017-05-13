@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #random_shuffle(
 #   value,
 #   seed = None,

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #random_uniform(
 #   shape,
 #   minval = 0,

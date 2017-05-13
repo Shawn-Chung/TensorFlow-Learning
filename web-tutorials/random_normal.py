@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #random_normal(   产生随机正太分布数据
 #   shape,
 #   mean = 0.0,  平均值
