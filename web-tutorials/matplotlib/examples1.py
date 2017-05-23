@@ -4,7 +4,7 @@
 #移动坐标轴
 #为图添加标签
 #为部分点添加标注
-
+# -*- coding: utf-8 -*-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -25,10 +25,11 @@ plt.plot(x, y, color = "blue", linewidth = 2.0, linestyle = "-", label='f(x)=3x+
 plt.xticks([-np.pi, -np.pi/2, 0, np.pi/2, np.pi],
            [r'$-\pi$', r'$-\pi/2$', r'$0$', r'$+\pi/2$', r'$+\pi$'])
 
-#移动坐标轴
+#移动坐标轴 gca = "get current axis"
 ax = plt.gca()
 ax.spines['right'].set_color('none')
 ax.spines['top'].set_color('none')
+#x轴用'bottom'代替
 ax.xaxis.set_ticks_position('bottom')
 ax.spines['bottom'].set_position(('data', 0))
 ax.yaxis.set_ticks_position('left')

@@ -1,4 +1,5 @@
 #用花点的方式生成雨点动图，采用了animation模块的FuncAnimation函数
+# -*- coding: utf-8 -*-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -33,7 +34,7 @@ ax.set_yticks([])
 
 
 
-#define the update function 
+#define the update function  
 def update(frame):
     global P,C,S
     #every ring is made more transparent 制作颜色渐变的效果，从亮到模糊
