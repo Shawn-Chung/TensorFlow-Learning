@@ -19,6 +19,7 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 #define the loss function with cross-entropy
 y_ = tf.placeholder("float", [None, 10])
 
+#定义代价函数：交叉熵
 cross_entropy = -tf.reduce_sum(y_ * tf.log(y))
 
 #define the train method
