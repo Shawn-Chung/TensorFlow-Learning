@@ -1,7 +1,5 @@
 #利用cnn实现数字识别
 
-
-
 # -*-coding: utf-8 -*-
 
 import tensorflow as tf
